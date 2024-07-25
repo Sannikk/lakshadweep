@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+body{
+    background: url(https://images.pexels.com/photos/24426544/pexels-photo-24426544/free-photo-of-boats-around-rock-island-on-sea-coast.jpeg?auto=compress&cs=tinysrgb&w=2000&h=750&dpr=1);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    text-decoration: underline;
+    color: blue;
+}
+
+nav a{
+    margin-top: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+}
+
+nav a{
+    background-color: rgba(66, 185, 193, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.644);
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+
+nav{
+    background-color: #333;
+    background: transparent;
+}
